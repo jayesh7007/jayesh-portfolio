@@ -1,6 +1,7 @@
 import React, { Component, useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import profilePhoto from "../Images/rehana.jpeg";
 
 const navItems = [
   "home",
@@ -259,7 +260,7 @@ function Hero({ experience }) {
           <div className="relative h-56 w-56 sm:h-72 sm:w-72 md:h-80 md:w-80 lg:h-96 lg:w-96">
             <div className="absolute -inset-4 animate-pulse rounded-full bg-gradient-to-br from-primary via-secondary to-blue-400 opacity-30 blur-2xl" />
             <img
-              src="/Images/rehana.jpeg"
+              src={profilePhoto}
               alt="Jayesh Waghela"
               className="floating relative h-full w-full rounded-full border-4 border-white object-cover shadow-2xl"
             />
