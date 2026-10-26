@@ -471,7 +471,7 @@ function Experience() {
       title: "Jr. Software Engineer",
       status: "Current",
       date: "Aug 2025 – Present",
-      tenure: "Aug 2025",
+      tenure: "2025-08-01",
       company: "GTS Finlabs Pvt. Ltd. (formerly FinBraine) — Pune, India",
       bullets: [
         "Developing Angular frontend applications for cooperative banking Loan Origination (LOS) and Account Origination (AOS) systems with secure backend API integration.",
